@@ -1,0 +1,24 @@
+{
+  "name": "parking-slot-management-board",
+  "version": "1.0.0",
+  "description": "A beginner-friendly Parking Slot Management Board built with HTML, Bootstrap 5, JavaScript, and Node.js/Express.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "backend": "node server.js",
+    "frontend": "node frontend-server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "parking-management",
+    "express",
+    "bootstrap5",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^4.21.2"
+  }
+}
